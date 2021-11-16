@@ -275,6 +275,7 @@ button {
 .navbar-nav {
     align-items: center;
     margin-top: 40px;
+    position:fixed;
 }
 
 .btn:not(:disabled):not(.disabled) {
