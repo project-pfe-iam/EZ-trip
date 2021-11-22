@@ -237,7 +237,42 @@ button {
     height: 765PX;
     background-size:100%;
     padding: 0px 0px 20px 0px;
+    background-position: center;
+    animation: slide 30s infinite;
   
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(../images/blackflame_2_1.png);
+    }
+    20%{
+        background-image: url(../images/blackflame_2_1.png);
+    }
+    20.1%{
+        background-image: url(../images/tangier.png);
+    }
+    40%{
+        background-image: url(../images/tangier.png);
+    }
+    40.1%{
+        background-image: url(../images/image101.png);
+    }
+    60%{
+        background-image: url(../images/image101.png);
+    }
+    60.01%{
+        background-image: url(../images/blackflame_2_1.png);
+    }
+    80%{
+        background-image: url(../images/blackflame_2_1.png);
+    }
+    80.01%{
+        background-image: url(../images/yeahtrue.png);
+    }
+    100%{
+        background-image: url(../images/yeahtrue.png);
+    }
 }
 
 .bg-light {
