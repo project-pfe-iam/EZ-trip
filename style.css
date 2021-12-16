@@ -4,6 +4,10 @@ span{
     color: #034F83;
 }
 
+ul{ 
+  list-style-type: none;
+}
+
 select,input,textarea,button{box-shadow:none;outline:0!important;}
 h2{
     font-size: 100px;
